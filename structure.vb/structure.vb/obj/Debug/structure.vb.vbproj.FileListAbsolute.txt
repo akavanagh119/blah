@@ -1,0 +1,12 @@
+C:\Users\Alastair\source\repos\structure.vb\structure.vb\bin\Debug\structure.vb.exe.config
+C:\Users\Alastair\source\repos\structure.vb\structure.vb\bin\Debug\structure.vb.exe
+C:\Users\Alastair\source\repos\structure.vb\structure.vb\bin\Debug\structure.vb.pdb
+C:\Users\Alastair\source\repos\structure.vb\structure.vb\bin\Debug\structure.vb.xml
+C:\Users\Alastair\source\repos\structure.vb\structure.vb\obj\Debug\structure.vb.vbprojAssemblyReference.cache
+C:\Users\Alastair\source\repos\structure.vb\structure.vb\obj\Debug\structure.vb.Form1.resources
+C:\Users\Alastair\source\repos\structure.vb\structure.vb\obj\Debug\structure.vb.Resources.resources
+C:\Users\Alastair\source\repos\structure.vb\structure.vb\obj\Debug\structure.vb.vbproj.GenerateResource.cache
+C:\Users\Alastair\source\repos\structure.vb\structure.vb\obj\Debug\structure.vb.vbproj.CoreCompileInputs.cache
+C:\Users\Alastair\source\repos\structure.vb\structure.vb\obj\Debug\structure.vb.exe
+C:\Users\Alastair\source\repos\structure.vb\structure.vb\obj\Debug\structure.vb.xml
+C:\Users\Alastair\source\repos\structure.vb\structure.vb\obj\Debug\structure.vb.pdb
