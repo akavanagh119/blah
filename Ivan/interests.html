@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="jquery-3.4.1.min.js"></script>		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>My Interests</title>
+
+	<div class="navbar">
+  <a href="index.html">Home</a>
+  
+  <div class="Dropdown">
+    <button class="Dropbtn">CV
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="details.html">Personal Details</a>
+      <a href="education.html">Education</a>
+      <a href="work.html">Work Experience</a>
+    </div>
+  </div>
+
+    <div class="Dropdown">
+    <button class="Dropbtn">Interests
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="interests.html">Travel</a>
+      <a href="#">Interests</a>
+    </div>
+  </div>
+
+   <div class="Dropdown">
+    <button class="Dropbtn">Consulting
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="consulting.html">About Consulting</a>
+      <a href="#">Services</a>
+    </div>
+  </div>
+
+</div>
+
+	</head>
+	<body>
+		<div class="Header" id="Header">
+			<center>	
+				<h1>Hobbies and interests</h1>
+			</center>
+		</div>
+
+		
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+		
+		
+		
+		<hr />
+
+				<div class="sports-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="sportsSlides fade">
+    <div class="numbertext">1 / 3 </div>
+  <!--  <img src="img1.jpg" style="width:100%"> -->
+  	<img class="sportspics" src="hurling.jpeg" alt="hurling" style="width:100%">
+    <div class="text">Caption One</div>
+  </div>
+
+  <div class="sportsSlides fade">
+    <div class="numbertext">2 / 3</div>
+   <!-- <img src="img2.jpg" style="width:100%"> -->
+   <img class="sportspics" src="rugby.jpeg" alt="rugby" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="sportsSlides fade">
+    <div class="numbertext">3 / 3</div>
+   <!-- <img src="img3.jpg" style="width:100%"> -->
+   <img class="sportspics" src="soccer.jpeg" alt="soccerball" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  
+</div> 
+		
+	<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("sportsSlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+	
+
+	<div id="musicPara">
+
+		
+		<p>I have a huge interest in music and have taught myself piano to a certain level before taking six years of lessons. I also started using lessons on the internet to teach myself guitar from transition year onwards. I played with friends who were also learning instruments at the time. I have performed in dramas and pantomines. I have come to love performing in front of crowds because of drama and music. I listen to many genres of music from jazz and classical to metal. I have attended concerts in Dublin with my brother who is also a metalhead. </p>
+
+		<p>
+			I love animals and have adopted two dogs named Sox and Buster. Buster was adopted from the Munster Animal Sanctuary that came to UCC in February. I volunteered at my local animal sanctuary and did work experience at a vets in transition year. 
+		</p>
+
+		<p>
+			I grew up playing video games with my brothers and this sparked my interest in computers and programming. I like keeping up with new developments in technology and computer hardware. I build my computer in first year of secondary school. I use it for gaming and coding. I love fixing computers and coding. It gives me satisfaction to figure out how to get code working properly and finally fixing any bugs. The first language I started learning with was Java. I attended my local coderdojo and met other people with similar interests as me. This is where i got advice on building my PC and began coding. With coderdojo I travelled to the RDS and DCU for the coolest projects competition. This organisation ultimately led me to pursue coding as a career and do Business Information Systems in college, which I am thoroughly enjoying
+		</p>
+	</div>
+
+		<div class="footer" id="Footer">
+		
+	
+
+		<div class="consultingContact" id="address">
+			<div id="contactAddress">
+				<div id="contactCenter">
+					<center>
+						<h2>Visit Us!</h2>
+						<br>
+					</center>
+				</div> 
+					<p>123 Fake Street</p>
+						<br>
+					<p>Not real road</p>
+						<br>
+					<p>Douglas</p>
+						<br>
+					<p>Cork</p>
+						<br>
+					<p>&copy:AkConsulting</p>
+
+			</div>
+				<div class="footer" id="footer">
+					<div id="facebookPhoto"
+						<p>Like us on facebook!</p>
+						<img src="facebook.png" alt="facebook" height="40" width="40">
+					</div>
+					<div id="twitter">
+						<p>Follow us on Twitter!</p>
+						<img src="darkTwitter.png" alt="twitter" height="40" width="40">
+					</div>
+					<p>Email Us: fakebusiness@consulting.ie</p>
+					<img src="gmail.png" alt="email" height="40" width="40">
+				</div>
+
+		</div>
+		</div>
+
+		</div>
+
+		</body>
+</html>

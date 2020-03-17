@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<title>Personal Details</title>
+
+		<div class="navbar">
+  <a href="index.html">Home</a>
+  
+  <div class="Dropdown">
+    <button class="Dropbtn">CV
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="consulting.html">Personal Details</a>
+      <a href="education.html">Education</a>
+      <a href="work.html">Work Experience</a>
+    </div>
+  </div>
+
+    <div class="Dropdown">
+    <button class="Dropbtn">Interests
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="travel.html">Travel</a>
+      <a href="sports.html">Sport</a>
+    </div>
+  </div>
+
+   <div class="Dropdown">
+    <button class="Dropbtn">Consulting
+      <i class="fa fa-caret-down"></i>
+    </button>
+		    <div class="dropdown-content">
+		      <a href="consulting.html">About Consulting</a>
+		      <a href="#">Services</a>
+		    </div>
+	   </div>
+  </div>
+</head>
+
+<body>
+  <div class="Header" id="Header">
+      <center>  
+        <h1>Travel</h1>
+      </center>
+    </div>
+    <div class="travel-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4 </div>
+  
+    <img class="travelpics" src="hiking.jpeg" alt="mountain" style="width:100%">
+    <
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+   
+   <img class="travelpics" src="edinburghcity.jpg" alt="castle" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+   
+   <img class="travelpics" src="beach.jpeg" alt="beach" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img class="travelpics" src="oslo.jpeg" alt="sunset" style="width:100%">
+    
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div> 
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+</script>
+  <p>
+    Travelling is one of my favourite things to do when I get the opportunity. I will sometimes travel around to different countries with my parents and brothers during the summer holoidays. This has become something I look forward to. Experiencing different cultures and learning different languages is very valuable and eye opening in my opinion. Some of my favourite places that I have been to are Edinburgh, New Zealand, Oslo and Spain, seen in the slideshow above. I personaly prefer city holidays to sun holidays. There is much more to see and do other than sunbathe. 
+  </p>
+
+
+    <div class="footer" id="Footer">
+    
+  
+
+    <div class="consultingContact" id="address">
+      <div id="contactAddress">
+        <div id="contactCenter">
+          <center>
+            <h2>Visit Us!</h2>
+            <br>
+          </center>
+        </div> 
+          <p>123 Fake Street</p>
+            <br>
+          <p>Not real road</p>
+            <br>
+          <p>Douglas</p>
+            <br>
+          <p>Cork</p>
+          <br>
+          <p>&copy:AkConsulting</p>
+
+      </div>
+        <div class="footer" id="footer">
+          <div id="facebookPhoto"
+            <p>Like us on facebook!</p>
+            <img src="facebook.png" alt="facebook" height="40" width="40">
+          </div>
+          <div id="twitter">
+            <p>Follow us on Twitter!</p>
+            <img src="darkTwitter.png" alt="twitter" height="40" width="40">
+          </div>
+          <p>Email Us: fakebusiness@consulting.ie</p>
+          <img src="gmail.png" alt="email" height="40" width="40">
+        </div>
+
+    </div>
+    </div>
+
+    </div>
+
+</body>
