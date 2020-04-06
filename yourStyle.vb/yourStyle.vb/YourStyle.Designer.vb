@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class YourStyle
+Partial Class FrmYourStyle
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -70,7 +70,7 @@ Partial Class YourStyle
         Me.btnContinue.Text = "Continue"
         Me.btnContinue.UseVisualStyleBackColor = True
         '
-        'YourStyle
+        'FrmYourStyle
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -79,8 +79,8 @@ Partial Class YourStyle
         Me.Controls.Add(Me.rdoVintage)
         Me.Controls.Add(Me.rdoRetro)
         Me.Controls.Add(Me.rdoClassic)
-        Me.Name = "YourStyle"
-        Me.Text = "Form1"
+        Me.Name = "FrmYourStyle"
+        Me.Text = "Your Style"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
